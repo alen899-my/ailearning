@@ -34,18 +34,6 @@ def predict():
         return render_template("Home.html",results=result[0])
 
 
-
-
-
-
-
-
-
-
-
-
-
-        
     else:
         return render_template("Home.html")
 
