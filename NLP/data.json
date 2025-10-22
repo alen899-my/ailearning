@@ -1,0 +1,24 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "Good morning", "Good evening"],
+      "responses": ["Hello!", "Hi there!", "Hey! How can I help you?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": ["Bye! Have a great day!", "See you soon!"]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "Thanks a lot"],
+      "responses": ["You're welcome!", "No problem!", "Glad to help!"]
+    },
+    {
+      "tag": "weather",
+      "patterns": ["What's the weather like?", "Tell me the weather", "Is it raining?"],
+      "responses": ["I can't check live weather yet, but it's always sunny in my code!"]
+    }
+  ]
+}
